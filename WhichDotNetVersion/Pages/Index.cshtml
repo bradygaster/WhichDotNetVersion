@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Which .NET Version am I?";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Which.NET?</h1>
+    <p>Your version of .NET is @System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription.</p>
+</div>
